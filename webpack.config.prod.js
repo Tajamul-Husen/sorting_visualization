@@ -13,7 +13,7 @@ module.exports = {
   output: {
     filename: "js/[name].[contenthash].bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/dist",
+    publicPath: "/",
   },
   devtool: "cheap-source-map",
   optimization: {

@@ -1,5 +1,4 @@
 const path = require("path");
-// const cleanWebpackPlugin = require("clean-webpack-plugin");
 const htmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
