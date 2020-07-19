@@ -5,6 +5,7 @@ export default function disabledAllButton(name, bool) {
   for (let i = 0; i < len; i++) {
     if (name && name === btnArr[i].textContent.toLowerCase()) {
       btnArr[i].classList.add("active");
+      btnArr[i].disabled = bool;
     } else {
       btnArr[i].disabled = bool;
       if (!bool && btnArr[i].classList.contains("active")) {
